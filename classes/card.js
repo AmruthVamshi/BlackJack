@@ -13,7 +13,7 @@ export default class Card{
         return {
             'width':'90px',
             'height':'125px',
-            'background-image': `url(/images/deck/${this.name}.PNG)`,
+            'background-image': `url(/../images/deck/${this.name}.PNG)`,
             'background-repeat': 'no-repeat',
             'background-size': 'contain',
             'background-position': 'center',
