@@ -41,7 +41,7 @@ export default class Deck{
         return {
             'width':'90px',
             'height':'125px',
-            'background-image': `url(/images/deck/backside.PNG)`,
+            'background-image': `url(/BlackJack/images/deck/backside.PNG)`,
             'background-repeat': 'no-repeat',
             'background-size': 'contain',
             'background-position': 'center',
