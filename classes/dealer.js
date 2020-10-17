@@ -22,7 +22,7 @@ export default class Dealer{
                 style['bottom']=`${(this.hand.length-1)*25}px`;
                 style['left']=`${(this.hand.length-1)*35}px`;
                 if(this.hand.length===2){
-                    style['background-image']='url(/images/deck/backside.PNG)';
+                    style['background-image']='url(/BlackJack/images/deck/backside.PNG)';
                 }else{
                     this.reveal();
                 }
@@ -34,7 +34,7 @@ export default class Dealer{
     reveal(){
         let closedCard=this.hand[1]
         let style=closedCard.cardStyle();
-        style['background-image']=`url(/images/deck/${closedCard.name}.PNG)`
+        style['background-image']=`url(/BlackJack/images/deck/${closedCard.name}.PNG)`
         $(`.${closedCard.name}`).css(style);
     }
 
